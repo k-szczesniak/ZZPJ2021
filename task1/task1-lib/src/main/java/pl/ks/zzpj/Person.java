@@ -11,4 +11,8 @@ public class Person {
     @Getter
     @Setter
     private String name;
+
+    public String introducePerson() {
+        return "Hi " + getName();
+    }
 }
