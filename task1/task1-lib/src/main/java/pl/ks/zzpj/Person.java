@@ -13,6 +13,6 @@ public class Person {
     private String name;
 
     public String introducePerson() {
-        return "Hi " + getName();
+        return "Goodbye " + getName();
     }
 }
